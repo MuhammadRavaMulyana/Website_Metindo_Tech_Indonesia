@@ -250,69 +250,74 @@ export const categories: Category[] = [
   },
 
   {
-    id: "special-tools",
-    name: "Special Tools",
-    description:
-      "Precision tooling solutions to support various manufacturing processes, including cutting, turning, machining, and the production of specialized components with high performance and durability.",
-    image: "/asset/gabungan%20ST.png",
-    products: [
-      {
-        id: 1,
-        name: "Standard Cutting Tools",
-        description:
-          "Standard cutting tools for various cutting and machining processes with high precision. Designed to deliver consistent surface quality, optimal tool life, and improved production efficiency.",
-        descriptionId:
-          "Cutting tools standar untuk berbagai proses pemotongan dan machining dengan presisi tinggi. Dirancang untuk menghasilkan kualitas permukaan yang konsisten, umur alat yang optimal, dan peningkatan efisiensi produksi.",
-        descriptionJa:
-          "さまざまな切削・加工工程に対応する高精度の標準切削工具です。安定した表面品質、最適な工具寿命、生産効率の向上を実現するよう設計されています。",
-        image: "/asset/Special Tools/Standard Cutting Tools.png",
-      },
-      {
-        id: 2,
-        name: "Turning Tools",
-        description:
-          "Turning tools designed to support the machining of various materials with high precision and stability. These tooling solutions help achieve accurate dimensions, excellent surface quality, and optimal machining productivity.",
-        descriptionId:
-          "Turning tools yang dirancang untuk mendukung proses machining berbagai material dengan presisi dan stabilitas tinggi. Solusi tooling ini membantu mencapai dimensi yang akurat, kualitas permukaan yang sangat baik, dan produktivitas machining yang optimal.",
-        descriptionJa:
-          "さまざまな材料の加工を高精度かつ安定して行うための旋削工具です。正確な寸法、優れた表面品質、最適な加工生産性の実現を支援します。",
-        image: "/asset/Special Tools/Turning Tools.png",
-      },
-      {
-        id: 3,
-        name: "Machined Parts",
-        description:
-          "High-precision machined components manufactured according to customer requirements and specifications. Suitable for various industrial applications, with a focus on dimensional accuracy, surface quality, and production consistency.",
-        descriptionId:
-          "Komponen hasil machining berpresisi tinggi yang diproduksi sesuai kebutuhan dan spesifikasi pelanggan. Cocok untuk berbagai aplikasi industri dengan fokus pada akurasi dimensi, kualitas permukaan, dan konsistensi produksi.",
-        descriptionJa:
-          "お客様の要件と仕様に合わせて製造された高精度の機械加工部品です。寸法精度、表面品質、生産の一貫性を重視し、さまざまな産業用途に適しています。",
-        image: "/asset/Special Tools/Machined Parts.png",
-      },
-      {
-        id: 4,
-        name: "Machining Tools",
-        description:
-          "A wide range of machining tools to support industrial machining processes, from cutting to finishing. Designed to deliver precision, durability, and optimal performance across various manufacturing applications.",
-        descriptionId:
-          "Berbagai macam machining tools untuk mendukung proses machining industri, mulai dari pemotongan hingga finishing. Dirancang untuk memberikan presisi, daya tahan, dan kinerja optimal pada berbagai aplikasi manufaktur.",
-        descriptionJa:
-          "切削から仕上げまで、産業用加工工程を支援する幅広いマシニング工具です。さまざまな製造用途で精度、耐久性、最適な性能を発揮するよう設計されています。",
-        image: "/asset/Special Tools/Machining Tools.png",
-      },
-      {
-        id: 5,
-        name: "THX Abrasives",
-        description:
-          "THX Abrasives (China) is an OEM manufacturer of abrasive tools, offering cutting, grinding, sanding, and diamond tools for various industrial applications. Its products are designed for materials such as metal, wood, stone, glass, and concrete, delivering reliable performance, durability, and precision across different manufacturing processes.",
-        descriptionId:
-          "THX Abrasives (China) adalah produsen OEM alat abrasif yang menawarkan cutting tools, grinding tools, sanding tools, dan diamond tools untuk berbagai aplikasi industri. Produk-produknya dirancang untuk material seperti logam, kayu, batu, kaca, dan beton, dengan kinerja, daya tahan, dan presisi yang andal pada berbagai proses manufaktur.",
-        descriptionJa:
-          "THX Abrasives（中国）は、さまざまな産業用途向けに切削、研削、サンディング、ダイヤモンド工具を提供するOEM研磨工具メーカーです。金属、木材、石材、ガラス、コンクリートなどに対応し、各種製造工程で信頼性、耐久性、精度を提供します。",
-        image: "/asset/Special Tools/Machining Tools.png",
-      },
-    ],
-  },
+  id: "special-tools",
+  name: "Special Tools",
+  description:
+    "Precision tooling solutions to support various manufacturing processes, including cutting, turning, machining, and the production of specialized components with high performance and durability.",
+  image: "/asset/gabungan%20ST.png",
+
+  products: [
+    {
+      id: 1,
+      name: "Standard Cutting Tools",
+      description:
+        "Standard cutting tools for various cutting and machining processes with high precision. Designed to deliver consistent surface quality, optimal tool life, and improved production efficiency.",
+      descriptionId:
+        "Cutting tools standar untuk berbagai proses pemotongan dan machining dengan presisi tinggi. Dirancang untuk menghasilkan kualitas permukaan yang konsisten, umur alat yang optimal, dan peningkatan efisiensi produksi.",
+      descriptionJa:
+        "さまざまな切削・加工工程に対応する高精度の標準切削工具です。安定した表面品質、最適な工具寿命、生産効率の向上を実現するよう設計されています.",
+      image: "/asset/Spesial Tools/Standard Cutting Tools.png",
+    },
+
+    {
+      id: 2,
+      name: "Turning Tools",
+      description:
+        "Turning tools designed to support the machining of various materials with high precision and stability. These tooling solutions help achieve accurate dimensions, excellent surface quality, and optimal machining productivity.",
+      descriptionId:
+        "Turning tools yang dirancang untuk mendukung proses machining berbagai material dengan presisi dan stabilitas tinggi. Solusi tooling ini membantu mencapai dimensi yang akurat, kualitas permukaan yang sangat baik, dan produktivitas machining yang optimal.",
+      descriptionJa:
+        "さまざまな材料の加工を高精度かつ安定して行うための旋削工具です。正確な寸法、優れた表面品質、最適な加工生産性の実現を支援します。",
+      image: "/asset/Spesial Tools/Turning Tools.png",
+    },
+
+    {
+      id: 3,
+      name: "Machined Parts",
+      description:
+        "High-precision machined components manufactured according to customer requirements and specifications. Suitable for various industrial applications, with a focus on dimensional accuracy, surface quality, and production consistency.",
+      descriptionId:
+        "Komponen hasil machining berpresisi tinggi yang diproduksi sesuai kebutuhan dan spesifikasi pelanggan. Cocok untuk berbagai aplikasi industri dengan fokus pada akurasi dimensi, kualitas permukaan, dan konsistensi produksi.",
+      descriptionJa:
+        "お客様の要件と仕様に合わせて製造された高精度の機械加工部品です。寸法精度、表面品質、生産の一貫性を重視し、さまざまな産業用途に適しています。",
+      image: "/asset/Spesial Tools/Machined Parts.png",
+    },
+
+    {
+      id: 4,
+      name: "Machining Tools",
+      description:
+        "A wide range of machining tools to support industrial machining processes, from cutting to finishing. Designed to deliver precision, durability, and optimal performance across various manufacturing applications.",
+      descriptionId:
+        "Berbagai macam machining tools untuk mendukung proses machining industri, mulai dari pemotongan hingga finishing. Dirancang untuk memberikan presisi, daya tahan, dan kinerja optimal pada berbagai aplikasi manufaktur.",
+      descriptionJa:
+        "切削から仕上げまで、産業用加工工程を支援する幅広いマシニング工具です。さまざまな製造用途で精度、耐久性、最適な性能を発揮するよう設計されています。",
+      image: "/asset/Spesial Tools/Machining Tools.png",
+    },
+
+    {
+      id: 5,
+      name: "THX Abrasives",
+      description:
+        "THX Abrasives (China) is an OEM manufacturer of abrasive tools, offering cutting, grinding, sanding, and diamond tools for various industrial applications. Its products are designed for materials such as metal, wood, stone, glass, and concrete, delivering reliable performance, durability, and precision across different manufacturing processes.",
+      descriptionId:
+        "THX Abrasives (China) adalah produsen OEM alat abrasif yang menawarkan cutting tools, grinding tools, sanding tools, dan diamond tools untuk berbagai aplikasi industri. Produk-produknya dirancang untuk material seperti logam, kayu, batu, kaca, dan beton, dengan kinerja, daya tahan, dan presisi yang andal pada berbagai proses manufaktur.",
+      descriptionJa:
+        "THX Abrasives（中国）は、さまざまな産業用途向けに切削、研削、サンディング、ダイヤモンド工具を提供するOEM研磨工具メーカーです。金属、木材、石材、ガラス、コンクリートなどに対応し、各種製造工程で信頼性、耐久性、精度を提供します。",
+      image: "/asset/Spesial%20Tools/THX%20Abrasives.png",
+    },
+  ],
+},
 
   {
     id: "filter",
